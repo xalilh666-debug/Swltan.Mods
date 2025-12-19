@@ -1,0 +1,35 @@
+.features-showcase .feature-card {
+  background: #f5f5f5;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 10px 0;
+  text-align: center;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.features-showcase .feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.2);
+}
+
+.features-showcase .card-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.features-showcase .card-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: #19c37d;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.features-showcase .card-link:hover {
+  background: #148a58;
+}
